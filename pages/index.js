@@ -175,7 +175,8 @@ export default function Home() {
                     {
                       theUser !== null && theUser.acStatus !== "DEACTIVATED" ?
                         <Message>
-                          <Message.Header>Your Dynamic Playlist URL is:   <a href={dynamicUrl}>{dynamicUrl}</a></Message.Header>
+                          <Message.Header>Your Dynamic Playlist URL is:
+                          <h3><a href={dynamicUrl}>{dynamicUrl}</a></h3></Message.Header>
                           <h3>This generated URL works in NS Player, OTT Navigator & Tivimate app.</h3>
                         </Message>
                         :
